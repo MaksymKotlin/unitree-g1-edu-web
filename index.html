@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unitree G1 EDU</title>
+    <meta name="description" content="Unitree G1 EDU: kompaktní humanoidní robot pro výzkum, výuku a vývoj vlastních aplikací. Parametry, funkce a interaktivní 3D model.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+    <div class="nav__inner">
+        <nav class="nav__links" aria-label="Hlavní navigace">
+            <a href="#prehled" class="nav__logo">Unitree G1 EDU</a>
+            <a href="#model">3D model</a>
+            <a href="#funkce">Funkce</a>
+            <a href="#edu-u1">EDU U1</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero" id="prehled">
+        <p class="eyebrow">Humanoidní robot pro výzkum</p>
+        <h1 class="hero__title">G1 EDU.</h1>
+        <p class="hero__lead">Pohyblivost za hranicemi běžného člověka.<br>Otevřený vašemu vlastnímu kódu.</p>
+        <div class="hero__cta">
+            <a class="btn" href="#model">Prohlédnout ve 3D</a>
+            <a class="link" href="#specifikace">Technické parametry&nbsp;›</a>
+        </div>
+    </section>
+
+    <section class="stats" aria-label="Klíčové parametry">
+        <div class="stats__grid">
+            <div class="stat">
+                <span class="stat__value">132<small>cm</small></span>
+                <span class="stat__label">výška ve stoje</span>
+            </div>
+            <div class="stat">
+                <span class="stat__value">35<small>kg+</small></span>
+                <span class="stat__label">hmotnost s baterií</span>
+            </div>
+            <div class="stat">
+                <span class="stat__value">23-43</span>
+                <span class="stat__label">stupňů volnosti</span>
+            </div>
+            <div class="stat">
+                <span class="stat__value">~2<small>h</small></span>
+                <span class="stat__label">výdrž baterie</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--tint" id="model">
+        <div class="container">
+            <p class="eyebrow">Interaktivní 3D model</p>
+            <h2 class="section__title">Otočte si ho.<br>Ze všech stran.</h2>
+            <p class="section__lead">Táhněte myší pro otáčení</p>
+
+            <div class="viewer">
+                <iframe
+                        title="Unirandom G1 Unitree animate – 3D model"
+                        src="https://sketchfab.com/models/a4500d272b2c4457a27202b452ccef28/embed?autostart=1&amp;preload=1&amp;autospin=0.2&amp;transparent=1&amp;ui_hint=0&amp;scrollwheel=0"
+                        allow="autoplay; fullscreen; xr-spatial-tracking"
+                        allowfullscreen
+                        loading="lazy">
+                </iframe>
+            </div>
+            <p class="credit">
+                3D model:
+                <a href="https://sketchfab.com/3d-models/unirandom-g1-unitree-animate-a4500d272b2c4457a27202b452ccef28" target="_blank" rel="noopener">Unirandom G1 Unitree animate</a>
+                od autora
+                <a href="https://sketchfab.com/RandomRepresent" target="_blank" rel="noopener">RandomRepresent</a>
+                na Sketchfabu
+            </p>
+        </div>
+    </section>
+
+    <section class="section" id="funkce">
+        <div class="container">
+            <p class="eyebrow">Funkce</p>
+            <h2 class="section__title">Navrženo pro ty,<br>kdo posouvají hranice.</h2>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Extrémní rozsah pohybu</h3>
+                    <p>Pas se otočí o ±155°, koleno ohne od 0 do 165°. EDU navíc přidává naklápění pasu o ±30° a zápěstí s rozsahem ±92,5°.</p>
+                </article>
+                <article class="card">
+                    <h3>Více síly</h3>
+                    <p>Kolenní kloub s maximálním momentem 120 N·m a paže unesou přibližně 3 kg. Motory PMSM s nízkou setrvačností a dvojitými enkodéry.</p>
+                </article>
+                <article class="card">
+                    <h3>Vnímá okolí</h3>
+                    <p>Hloubková kamera a 3D LiDAR, pole čtyř mikrofonů a 5W reproduktor. Konektivita Wi-Fi 6 a Bluetooth 5.2.</p>
+                </article>
+                <article class="card">
+                    <h3>Výkon pro AI</h3>
+                    <p>Osmijádrový procesor doplňuje výkonný výpočetní modul, například NVIDIA Jetson Orin, pro běh AI modelů přímo v robotu.</p>
+                </article>
+                <article class="card">
+                    <h3>Obratné ruce</h3>
+                    <p>Volitelná tříprstá ruka Dex3-1 se silovým řízením a 7 stupni volnosti, kterou lze doplnit o taktilní senzory.</p>
+                </article>
+                <article class="card">
+                    <h3>Otevřený vývoj</h3>
+                    <p>Na rozdíl od základní verze podporuje G1 EDU sekundární vývoj: vlastní řízení, učení imitací i posilované učení.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--tint" id="edu-u1">
+        <div class="container split">
+            <div class="split__text">
+                <p class="eyebrow">Konfigurace EDU Standard</p>
+                <h2 class="section__title">G1 EDU U1.<br>Vstupní brána do humanoidní robotiky.</h2>
+                <p class="section__lead section__lead--left">
+                    U1 je základní konfigurací řady G1 EDU. Nabízí 23 stupňů volnosti, vestavěnou výpočetní jednotku
+                    o výkonu 100 TOPS a hybridní řízení síla–poloha. Je ideální pro univerzity, výzkumné laboratoře
+                    a vývojáře, kteří chtějí začít s reálným humanoidem.
+                </p>
+                <ul class="checklist">
+                    <li>23 stupňů volnosti</li>
+                    <li>Výpočetní výkon 100 TOPS</li>
+                    <li>Podpora sekundárního vývoje a SDK</li>
+                </ul>
+            </div>
+            <div class="split__panel">
+                <div class="panel">
+                    <span class="panel__big">18</span>
+                    <span class="panel__small">měsíců záruka</span>
+                    <hr>
+                    <span class="panel__big">120</span>
+                    <span class="panel__small">N·m v koleni</span>
+                    <hr>
+                    <span class="panel__big">9000</span>
+                    <span class="panel__small">mAh rychle vyměnitelná baterie</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer__inner">
+        <p>Neoficiální informační stránka. Unitree a G1 jsou značky společnosti Unitree Robotics.</p>
+        <p>
+            <a href="https://www.unitree.com/g1" target="_blank" rel="noopener">Oficiální stránka G1</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://support.unitree.com/main/en" target="_blank" rel="noopener">Dokumentace pro vývojáře</a>
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
